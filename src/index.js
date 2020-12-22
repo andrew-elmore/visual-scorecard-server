@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const authRoutes = require('./routes/authRoutes');
 const requireAuth = require('./middlewares/requireAuth');
-const mongoKey = require('./../config/mongoDbKey')
+const mongoKey = require('./../config/keys')
 
 const app = express();
 

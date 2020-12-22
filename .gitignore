@@ -1,2 +1,2 @@
 node_modules
-config/mongoDbKey.js
+config/keys_dev.js
